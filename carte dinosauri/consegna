@@ -1,0 +1,42 @@
+Si scriva un programma in python che simuli una partita al gioco "DINOSAURI"
+Dinosauri è un gioco di carte per due giocatori. Il mazzo è composto da 30 carte,
+10 rosse, 10 verdi e 10 gialle. Le rosse valgono 5 punti, le verdi 3 e le gialle 1
+Si gioca una carta a testa, e quella più grande vince. In caso di parità di valore,
+le carte vengono lasciate sul tavolo e vengono prese dal vincitore della mano successiva
+Se rimangono carte sul tavolo all'ultima mano, non vengono conteggiate
+
+Istruzioni del programma:
+- leggere dal file mazzo.txt le 30 carte
+- distribuire le carte in ordine alternato
+- simulare le 15 mani della partita, per ogni mano:
+    - giocare la catra del primo giocatore e stamparla a video
+    - giocare la carta del secondo giocatore e stamparla a video
+    - determinare il vincitore e scrivere il punteggio
+- al termine delle 15 mani, visualizzare vincitore e punteggio
+
+output esempio (simulazione su 3 mani):
+Punteggio giocatore 1: 0
+Punteggio giocatore 2: 0
+
+Mano n.1
+Carta giocatore 1: Gialla
+Carta giocatore 2: Gialla
+Risultato: Pareggio
+Punteggio giocatore 1: 0
+Punteggio giocatore 2: 0
+
+Mano n.2
+Carta giocatore 1: Verde
+Carta giocatore 2: Rossa
+Risultato: Vince la mano il giocatore 2
+Punteggio giocatore 1: 0
+Punteggio giocatore 2: 10
+
+Mano n.3
+Carta giocatore 1: Rossa
+Carta giocatore 2: Verde
+Risultato: Vince la mano il giocatore 1
+Punteggio giocatore 1: 8
+Punteggio giocatore 2: 10
+
+Vince giocatore 2 con 10 punti
