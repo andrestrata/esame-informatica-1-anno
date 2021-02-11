@@ -1,0 +1,4 @@
+5;Verde;2
+12;Nero;1
+2;Viola;2
+4;Bianco;1

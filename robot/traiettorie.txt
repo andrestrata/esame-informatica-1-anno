@@ -1,0 +1,3 @@
+Ra9012 4 3 -v-v+v-o-o+v
+Rj6k 1 1 +v+v+v+o+o+o-v-v-v-o+o+o
+Rq12a 2 2 -v-o+v+o-v+o+v-o

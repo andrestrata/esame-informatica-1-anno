@@ -1,0 +1,3 @@
+3;Giallo;4
+7;Blu;2
+1;Rosso;3
